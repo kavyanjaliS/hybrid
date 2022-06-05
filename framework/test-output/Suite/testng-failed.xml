@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="scripts.login_logout">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+          <include name="login_logoutTestCase"/>
+          <include name="afterClass"/>
+          <include name="methodname"/>
+        </methods>
+      </class> <!-- scripts.login_logout -->
+      <class name="scripts.Rentpalce_2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="search_place2"/>
+          <include name="generateReport"/>
+          <include name="afterClass"/>
+          <include name="methodname"/>
+        </methods>
+      </class> <!-- scripts.Rentpalce_2 -->
+      <class name="scripts.Buysearch">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+          <include name="places_search"/>
+          <include name="afterClass"/>
+          <include name="methodname"/>
+        </methods>
+      </class> <!-- scripts.Buysearch -->
+      <class name="scripts.Rentplace">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+          <include name="search_place3"/>
+          <include name="afterClass"/>
+          <include name="methodname"/>
+        </methods>
+      </class> <!-- scripts.Rentplace -->
+      <class name="scripts.Buysearch_2">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="generateReport"/>
+          <include name="search_place"/>
+          <include name="afterClass"/>
+          <include name="methodname"/>
+        </methods>
+      </class> <!-- scripts.Buysearch_2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
